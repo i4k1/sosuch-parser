@@ -23,12 +23,10 @@ If you run the program without any flags, the program will start parsing all thr
 ```sh
 #!/bin/sh
 
-start_mpv() {
-    sleep 10 # we wait until the program downloads at least some files
-    mpv --shuffle webm/*.webm
-}
-
 # the program will search for webm-threads, and download webm files
-./sosuch-parser --keywords="webm" --fileformats="webm" --path="webm" & start_mpv
+./sosuch-parser --keywords="webm" --fileformats="webm" --path="webm" && mpv --shuffle webm/*.webm
 ```
 Now you can watch WebM-threads *endlessly*!
+
+## License
+This software is licensed under the [Creative Commons Zero v1.0 Universal](LICENSE) license, which means it is in the public domain, which roughly means you can do whatever you want with it!
