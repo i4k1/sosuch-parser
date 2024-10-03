@@ -1,12 +1,19 @@
-# sosuch-parser
+# Sosuch parser
 Simple utility for parsing files by keywords on the 2ch.hk (sosuch) imageboard.
 
 Inspired by [ValdikSS/endless-sosuch](https://github.com/ValdikSS/endless-sosuch).
 
 ## Build
-The program uses only the standard golang library, so it is enough to simply [install the golang compiler](https://go.dev/dl) and build it into a binary with the command: `go build main.go`.
+The program uses only the standard golang library, so it is enough to simply [install the golang compiler](https://go.dev/dl) and build it into a binary file using the following commands:
+```sh
+go mod tidy
+go build
+```
 
 ## Usage
+>[!WARNING]
+>I am not responsible for the content of the site. 2ch.hk is an imageboard where almost anything can be posted.
+
 If you run the program with the `--help` (or `-h`) flag, the program will give you something like this:
 ```
 Usage of sosuch-parser:
