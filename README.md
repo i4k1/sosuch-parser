@@ -10,6 +10,10 @@ go mod tidy
 go build
 ```
 
+**Build Status:**
+
+![Build on Ubuntu](https://github.com/i4k1/sosuch-parser/actions/workflows/build-ubuntu.yml/badge.svg) ![Build on Windows](https://github.com/i4k1/sosuch-parser/actions/workflows/build-windows.yml/badge.svg)
+
 ## Usage
 >[!WARNING]
 >I am not responsible for the content of the site. 2ch.hk is an imageboard where almost anything can be posted.
